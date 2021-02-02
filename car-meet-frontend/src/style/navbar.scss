@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+.nav-header { 
+  font-family: 'Potta One', cursive;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  height: 200px;
+  align-items: center;
+  background-color: $umber;
+  color: $aeroblue;
+  padding-left: 200px;
+  padding-right: 80px;
+
+  .right-side-logo {
+    height: 200px;
+    background-image: url("../components/hompage/imgs/logoo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+  .left-side-login button{
+    border: 2px solid $aeroblue;
+    font-family: 'Potta One', cursive;
+    
+  }
+}
